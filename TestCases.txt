@@ -1,0 +1,79 @@
+Test Case 1 :-
+
+Test name: Deploy
+Test Description: I should be able to deploy only when seller and buyer address are given
+Desired outcome: I should be able to verify on the Remix IDE that i am able to deploy the code only when both address are provided 
+Actual outcome: On testing, I validated that the actual outcome matches the desired outcome
+Result: Pass
+
+Test Case 2 :-
+
+Test name: Create new order
+Test Description: As a user for Beach T-Shirts co, I should be able to call a method to create a new order that accepts a numerical quantity of T-Shirts.
+Desired outcome: I should be able to verify on the Remix IDE that my new order has been created and Quantity has been set to the number given or set.
+Actual outcome: On testing, I validated that the actual outcome matches the desired outcome
+Result: Pass
+
+Test Case 3 :-
+
+Test name: PaymentConfirmation
+Test Description: As a user for Beach T-Shirts co, I should be able to Confirm payment
+Desired outcome: I should be able to verify on the Remix IDE that i am able to confirm payment. 
+Actual outcome: On testing, I validated that the actual outcome matches the desired outcome
+Result: Pass
+
+Test Case 4 :-
+
+Test name: Complete Order status 
+Test Description:As a user for Threads Inc, I should be able to confirm that order is complete 
+Desired outcome: I should be able to verify on the Remix IDE that i am able to confirm the order is complete 
+Actual outcome: On testing, I validated that the actual outcome matches the desired outcome
+Result: Pass
+
+Test Case 5 :-
+
+Test name: Accept
+Test Description: As a user for Threads Inc, I should be able to Accept order and get Quantity
+Desired outcome: I should be able to verify on the Remix IDE that i am able to Accept order and get Quantity
+Actual outcome: On testing, I validated that the actual outcome matches the desired outcome
+Result: Pass
+
+Test Case 6 :-
+
+Test name: Cost
+Test Description: As a user for Threads Inc, I should only be able to Cost
+Desired outcome: I should be able to verify on the Remix IDE that i am able to cost
+Actual outcome: On testing, I validated that the actual outcome matches the desired outcome
+Result: Pass
+
+Test Case 7 :-
+
+Test name: Getting Seller address  
+Test Description: I should be able to get address of Thread Inc
+Desired outcome: I should be able to verify on the Remix IDE that i am able to get  Thread Inc Address
+Actual outcome: On testing, I validated that the actual outcome matches the desired outcome
+Result: Pass
+
+Test Case 8 :-
+
+Test name: Getting Buyer address
+Test Description: I should be able to get address of Beach T-shirts co 
+Desired outcome: I should be able to verify on the Remix IDE that i am able to get address of Beach T-shirts co 
+Actual outcome: On testing, I validated that the actual outcome matches the desired outcome
+Result: Pass
+
+Test Case 9 :-
+
+Test name: Only accessable by  Beach T-shirts co
+Test Description: As a user for Threads Inc, I should only be able to perform this function 
+Desired outcome: I should be able to verify on the Remix IDE that i am able to perform this(Accept, Cost, OrderComplete) function and if other perform it gives error
+Actual outcome: On testing, I validated that the actual outcome matches the desired outcome
+Result: Pass
+
+Test Case 10 :-
+
+Test name: Only accessable by Thread Inc
+Test Description: As a user for Beach T-Shirts co, I should be able to deploy only when seller and buyer address are given
+Desired outcome: I should be able to verify on the Remix IDE that i am able to  perform this(PaymentConfirmation, CreateOrder) function and if other perform it gives error 
+Actual outcome: On testing, I validated that the actual outcome matches the desired outcome
+Result: Pass
